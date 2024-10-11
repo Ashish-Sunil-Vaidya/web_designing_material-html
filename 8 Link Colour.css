@@ -1,0 +1,22 @@
+a:visited
+{
+    color: white;
+    background-color: blueviolet;
+}
+
+a:hover
+{
+    color: red;
+    background-color: grey;
+}
+
+a:active
+{
+    background-color: cyan;
+}
+
+A:link
+{
+    color: white;
+    background-color: blue;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tables in HTML</title>
+<style>
+    table
+    {
+        border: 2px black;
+        /* border-collapse: collapse; */
+        /* border-spacing: 5px; */
+        width: 50%;
+        margin: auto;
+    }
+
+    th
+    {
+        padding: 10px;
+        text-align: left;
+    }
+
+    td
+    {
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* table tr :nth-child(1)
+    {
+        background-color: gray;
+    } */
+
+    /* table tr :nth-child(odd)
+    {
+        background-color: white;
+    } */
+
+    table th
+    {
+        background-color: gray;
+    }
+    
+</style>
+</head>
+<body>
+    <!-- ! You can also apply inline css inside table attribute -->
+    <table border="1">
+        <caption style="font-size: 20px;">Some well known countries in the world</caption>
+        <tr><th>Country</th><th>Capital</th><th >Language</th><th>Population</th></tr>
+        <tr><td>USA</td>  <td>Washington, D.C.</td>  <td >English(US) <td>33 crore</td> </tr>
+        <tr><td>Russia</td>  <td>Moscow</td>  <td >Slavic</td> <td>13 crore</td> </tr>
+        <tr><td>China</td>  <td>Beijing</td>  <td >Mandarin</td> <td>142 crore</td> </tr>
+        <tr><td>India</td>  <td>Delhi</td> <td >Hindi</td> <td>140 crore</td> </tr>
+        
+    </table>
+</body>
+</html>
